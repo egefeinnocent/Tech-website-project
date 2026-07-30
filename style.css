@@ -1,0 +1,65 @@
+img{
+    width: 400px;
+    padding: 20px;
+    float: left; 
+    
+}
+
+.container{
+    text-align: justify;
+    line-height: 2;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    color: blueviolet;
+    text-align-last: center;
+}
+p::first-letter{
+    font-size: 5em;
+    font-weight: bold;
+    float: left;
+    line-height: 1;
+    margin-right: 8px;
+    margin-bottom: -50px;color: brown;
+    
+    
+}
+
+video{
+    width: 400px;
+    height: 300px;
+    float: left;
+    padding: 5px;
+    background-color: crimson;
+}
+
+.avatar{
+    width: 100px;
+    height: 100Px;
+    object-fit: cover;
+    width: 100px;
+    
+}
+
+.container-avatar{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    gap: 7px;
+}
+
+fieldset, legend{
+    width: 100px;
+    text-align: center;
+    width: 107px;
+    color:red
+ 
+}
+.info{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    
+}
